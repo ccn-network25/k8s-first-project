@@ -18,4 +18,4 @@ jobs:
       uses: stackrox/kube-linter-action@v1
       with:
         directory: .
-        config-file: .kube-linter.yaml # <-- TAMBAHKAN BARIS INI
+        config: .kube-linter.yaml # <-- PERBAIKI BARIS INI
