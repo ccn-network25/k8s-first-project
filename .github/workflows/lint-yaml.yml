@@ -13,7 +13,9 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v4
 
+# ... (bagian atas tetap sama) ...
     - name: Lint Kubernetes Manifests
       uses: stackrox/kube-linter-action@v1
       with:
         directory: .
+        config-file: .kube-linter.yaml # <-- TAMBAHKAN BARIS INI
