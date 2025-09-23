@@ -22,5 +22,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: DOCKERHUB_USERNAME/my-first-app:latest
+        tags: uuser1/my-first-app:latest
 
