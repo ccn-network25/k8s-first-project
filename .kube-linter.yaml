@@ -1,5 +1,0 @@
-checks:
-  remove:
-    - no-anti-affinity
-    - no-read-only-root-fs
-    - run-as-non-root
